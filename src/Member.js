@@ -35,7 +35,7 @@ AR/VR(Vi Micro), Advanced Manufacturing(Ace/Siemens), and more.</p>
     </div>
 
     <div className="hover-container col-xl-5 col-md-6 col-sm-10 border m-3">
-    <div className='hover-image club1'>
+    <div className='hover-image club3'>
     </div>
       <div className="hover-card">
         <h3>MS-CDC<span className='club3qrcode clubqrcode'></span></h3>

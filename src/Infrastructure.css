@@ -40,16 +40,16 @@
     transform: scale(1.2); /* zoom on hover */
   }
   .colimg1{
-    background-image: url('./cgeshot1.png');
+    background-image: url('./institutionlogo1.JPG');
   }
   .colimg2{
-    background-image: url('./cgeshot2.png');
+    background-image: url('./infracge2.JPG');
   }
   .colimg3{
     background-image: url('./cgeground.JPG');
   }
   .colimg4{
-    background-image: url('./cgeshot4.png');
+    background-image: url('./infrcge1.JPG');
   }
   .colimg5{
     background-image: url('./cgeshot5.png');

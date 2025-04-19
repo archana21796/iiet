@@ -8,6 +8,7 @@ import insta4 from './instaqr4.png'
 import linkedin1 from './linked1.png'
 import linkedin2 from './lined2.png'
 import linkedin3 from './linked3.png'
+import linkdin4 from './linked4.png'
 
 
 const SocialMedia = () => {
@@ -43,8 +44,8 @@ const SocialMedia = () => {
                             <a href="https://www.linkedin.com/school/meenakshi-sundararajan-engineering-college/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedin1} alt="Instagram QR 1" className="qrimg" />
                             </a>
-                            <a href="https://www.instagram.com/mssm_mba_official/" target="_blank" rel="noopener noreferrer">
-                                <img src={linkedin2} alt="Instagram QR 2" className="qrimg" />
+                            <a href="https://www.linkedin.com/in/meenakshi-sundararajan-school-of-management-7a23bb229/" target="_blank" rel="noopener noreferrer">
+                                <img src={linkdin4} alt="Instagram QR 2" className="qrimg" />
                             </a>
                             <a href="https://www.linkedin.com/company/the-nest-school-chennai/" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedin2} alt="Instagram QR 3" className="qrimg" />

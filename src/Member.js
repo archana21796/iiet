@@ -13,7 +13,7 @@ const Member = () => {
       <div className='hover-image club1'>
       </div>
       <div className="hover-card">
-        <h3>MSIIC<span className='club1qrcode clubqrcode'></span></h3>
+        <h3>MSIIC<a href=' https://msec.edu.in/MSIIC.html' target="_blank" rel="noopener noreferrer"><span className='club1qrcode clubqrcode'></span></a></h3>
         <p className='p-1'>Meenakshi Sundararajan Innovation &amp; Incubation Center (MSIIC) – Partnering with T-
         HUB and Wadhwani Entrepreneurial Network to turn ideas into groundbreaking
         ventures. Apart from design and delivery of the “Entrepreneurship” program the center also
@@ -25,7 +25,7 @@ const Member = () => {
     <div className='hover-image club2'>
     </div>
       <div className="hover-card">
-        <h3>MS-CIIC<span className='club2qrcode clubqrcode'></span></h3>
+        <h3>MS-CIIC<a href="https://msec.edu.in/MSCIIC.html" target="_blank" rel="noopener noreferrer"><span className='club2qrcode clubqrcode'></span></a></h3>
         <p className='p-1'>Meenakshi Sundararajan Center for Industry-Institute Collaboration (MS-CIIC) –
 Bridging academia and industry using industry linked skill development &amp; curriculum
 deployment, through world-class Industry Centers of Excellence (ICE) in Cyber-Security,
@@ -38,7 +38,7 @@ AR/VR(Vi Micro), Advanced Manufacturing(Ace/Siemens), and more.</p>
     <div className='hover-image club3'>
     </div>
       <div className="hover-card">
-        <h3>MS-CDC<span className='club3qrcode clubqrcode'></span></h3>
+        <h3>MS-CDC<a href="https://msec.edu.in/MSCDC.html" target="_blank" rel="noopener noreferrer"><span className='club3qrcode clubqrcode'></span></a></h3>
         <p className='p-1'>Meenakshi Sundararajan Career Development Center (MS-CIIC) – A transformative
 program guiding students &amp; staff from self-awareness to career excellence. This center
 is also tasked with Faculty Development &amp; Upskilling.</p>
@@ -49,7 +49,7 @@ is also tasked with Faculty Development &amp; Upskilling.</p>
     <div className='hover-image club4'>
     </div>
       <div className="hover-card">
-        <h3>SSMSRC<span className='club4qrcode clubqrcode'></span></h3>
+        <h3>SSMSRC<a href='https://msec.edu.in/research.html'target="_blank" rel="noopener noreferrer"><span className='club4qrcode clubqrcode'></span></a></h3>
         <p className='p-1'>Sringeri Sharadambha Meenakshi Sundararajan Research Center (SSMSRC) –
         Fostering a culture of inquiry, innovation, and global academic impact.</p>
       </div>

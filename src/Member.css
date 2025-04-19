@@ -1,0 +1,83 @@
+.ribbon {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .ribbon {
+    --s: 1.8em; /* the ribbon size */
+    --d: .8em;  /* the depth */
+    --c: .8em;  /* the cutout part */
+    
+    padding: 0 calc(var(--s) + .5em) var(--d);
+    line-height: 1.8;
+    background:
+      conic-gradient(at left  var(--s) bottom var(--d),
+       #0000 25%,#0008 0 37.5%,#0004 0) 0   /50% 100% no-repeat,
+      conic-gradient(at right var(--s) bottom var(--d),
+       #0004 62.5%,#0008 0 75%,#0000 0) 100%/50% 100% no-repeat;
+    clip-path: polygon(0 var(--d), var(--s) var(--d),var(--s) 0,calc(100% - var(--s)) 0,calc(100% - var(--s)) var(--d),100% var(--d),calc(100% - var(--c)) calc(50% + var(--d)/2),100% 100%,calc(100% - var(--s) - var(--d)) 100%,calc(100% - var(--s) - var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) 100%,0 100%,var(--c) calc(50% + var(--d)/2));
+    background-color: #CC333F; /* the main color */
+    width: fit-content;
+  }
+  .hover-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .hover-image {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover;
+    display: block; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .hover-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0, 7, 105, 0.75);
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: height 0.4s ease;
+  }
+  
+  .hover-container:hover .hover-card {
+    height: 80%;
+  }
+  .club1{
+    background-image: url("./club1.jpg");
+  }
+  .club4{
+    background-image: url('./club4.jpeg');
+  }
+  .clubqrcode {
+    display: inline-block; /* Needed to give span dimensions */
+    background-size: cover;     /* Ensures image covers the area */
+    background-repeat: no-repeat;
+    width: 100px; /* or smaller if needed */
+    height: 100px;
+    margin-left: 1rem; /* optional spacing */
+  }
+  .club1qrcode{
+    background-image: url('./club1qr.png');
+  }
+  .club2qrcode{
+background-image: url('./club2qr.png');
+  }
+  .club3qrcode{
+    background-image: url('./club3qr.png');
+  }
+  .club4qrcode{
+    background-image: url('./club4qr.png');
+  }

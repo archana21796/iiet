@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  overflow-x: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navsection{
+  padding: 10px;
   display: flex;
+  text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.logosection{
+  width: 90px;
+  height: 90px;
+}
+.logoheader{
+  font-size: 20px;
+  background: linear-gradient(360deg, rgb(149, 0, 255), rgb(255, 1, 136));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+  .navsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .logosection{
+    width: 100px;
+    height: 100px;
+  }
+  .logoheader{
+    font-size: 50px;
+    background: linear-gradient(360deg, rgb(149, 0, 255), rgb(255, 1, 136));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+}
+
+.aboutbtn{
+  background: linear-gradient(to right, #ff007f, #00c6ff); 
+  border: none;
+  width: 200px;
+  height: 100px;
   color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.collegelogo{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 120px;
+}
+.cgelogobg1{
+  background-image: url("./mcw.jpeg");
+}
+.cgelogobg2{
+  background-image: url('./logo.jpeg');
+  padding-left: 30px !important;
+}
+.cgelogobg3{
+  background-image: url("./mssm.jpeg");
+}
+.cgelogobg4{
+  background-image: url("./nest.png");
 }

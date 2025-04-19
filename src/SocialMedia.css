@@ -1,0 +1,103 @@
+/* HTML: <div class="ribbon">Your text content</div> */
+.ribbon1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .ribbon1 {
+    --f: .5em; /* control the folded part */
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1.8;
+    padding-inline: 1lh;
+    padding-bottom: var(--f);
+    border-image: conic-gradient(#0008 0 0) 51%/var(--f);
+    clip-path: polygon(
+      100% calc(100% - var(--f)),100% 100%,calc(100% - var(--f)) calc(100% - var(--f)),var(--f) calc(100% - var(--f)), 0 100%,0 calc(100% - var(--f)),999px calc(100% - var(--f) - 999px),calc(100% - 999px) calc(100% - var(--f) - 999px));
+    transform: translate(calc((1 - cos(45deg))*100%), -100%) rotate(45deg);
+    transform-origin: 0% 100%;
+    background-color: #BD1550; /* the main color  */
+  }
+  .smbg{
+    background-color: wheat;
+  }
+  .outer-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding: 20px; */
+  }
+  
+  .trigger-container {
+    position: relative;
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(360deg, rgb(149, 0, 255), rgb(255, 1, 136));
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+    transition: all 0.3s ease;
+    border-radius: 20px 0 0 20px ;
+
+  }
+  .triger-con2{
+    background: blue !important;
+  }
+  .slide-out-container {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0px;
+    height: 100%;
+    background-color: white;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.4s ease;
+  }
+  .qr1{
+    background-image: url('./smqr1.png');
+  }
+  .qr2{
+    background-image: url('./smqr2.png');
+  }
+  /* Reveal drawer on hover */
+  .trigger-container:hover .slide-out-container {
+    width: 240px; /* Set how far it slides out */
+    /* padding: 20px; */
+  }
+  
+  .display-flex {
+    position: fixed;
+    top: 90%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* spacing between icons */
+    z-index: 1000; /* ensure it stays on top */
+  }
+  
+  .outer-container {
+    position: relative;
+    /* background-color: #fff;  */
+    /* padding: 10px; */
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .trigger-container {
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+  }
+  

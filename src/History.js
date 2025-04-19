@@ -11,8 +11,8 @@ const History = () => {
           About US  <FontAwesomeIcon icon={faArrowRight} />
         </button>
       </p>
-      <div className="collapse text-center ps-xl-5 ms-xl-5 show " id="collapseExample">
-        <div className="circle-cut  container w-md-75 ms-xl-5 p-md-3">
+      <div className="collapse text-center row ps-xl-5 ms-xl-5 align-items-center justify-content-center show" id="collapseExample">
+        <div className="circle-cut circlescreenreso col-xxl-11 container w-md-75 ms-xl-5 p-md-3">
           <div className=' row align-item-center justify-content-center ms-l-5'>
           <div className='bgimg ms-md-5'></div>
           </div>

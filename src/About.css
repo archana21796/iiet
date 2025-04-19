@@ -85,3 +85,8 @@
       }
 
   }
+  @media screen and (min-width: 1900px) {
+    .circlescreenreso{
+      margin-left: 20rem !important;
+    }
+  }

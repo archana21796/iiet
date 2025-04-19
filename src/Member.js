@@ -22,7 +22,7 @@ const Member = () => {
     </div>
 
     <div className="hover-container col-xl-5 col-md-6 col-sm-10 border m-3">
-    <div className='hover-image club1'>
+    <div className='hover-image club2'>
     </div>
       <div className="hover-card">
         <h3>MS-CIIC<span className='club2qrcode clubqrcode'></span></h3>

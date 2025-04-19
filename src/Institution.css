@@ -194,6 +194,11 @@
       left:41%;
     }
   }
+  @media screen and (min-width: 1900px) {
+    .middlelogo{
+      left:43%;
+    }
+  }
   @media screen and (min-width: 2560px) {
     .middlelogo{
       left:45%;

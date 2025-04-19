@@ -58,8 +58,11 @@
   .club1{
     background-image: url("./club1.jpg");
   }
+  .club2{
+    background-image: url('./msciic.jpg');
+  }
   .club4{
-    background-image: url('./club4.jpeg');
+    background-image: url('./msresearch.jpg');
   }
   .clubqrcode {
     display: inline-block; /* Needed to give span dimensions */

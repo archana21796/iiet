@@ -5,7 +5,7 @@ const Member = () => {
   return (
     <div>
       <div className='row container-fluid align-item-center justify-content-center mt-5'>
-        <h2 className='ribbon'>WHERE PASSION MEETS PURPOSE: OUR CENTER OF EXCELLANCE</h2>
+        <h2 className='ribbon'>WHERE PASSION MEETS PURPOSE: OUR CENTER OF EXCELLENCE</h2>
       </div>
       <div className="container-fluid">
   <div className="row justify-content-center align-items-center">

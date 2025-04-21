@@ -64,11 +64,11 @@ body{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 70px;
-  height: 120px;
+  width: 180px;
+  height: 150px;
 }
 .cgelogobg1{
-  background-image: url("./mcw.jpeg");
+  background-image: url("./womencgelogo.jpeg");
 }
 .cgelogobg2{
   background-image: url('./logo.jpeg');
@@ -78,5 +78,7 @@ body{
   background-image: url("./mssm.jpeg");
 }
 .cgelogobg4{
-  background-image: url("./nestlogo1.jpg");
+  background-color: white;
+  height: 100px !important;
+  background-image: url("./nestlogo.jpeg");
 }

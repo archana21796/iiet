@@ -7,12 +7,12 @@ const History = () => {
   return (<>
   <div className='text-center mb-5'>
         <p >
-        <button className="btn btn-primary btn-ray aboutsec border-0 p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        {/* <button className="btn btn-primary btn-ray aboutsec border-0 p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
           About US  <FontAwesomeIcon icon={faArrowRight} />
-        </button>
+        </button> */}
       </p>
-      <div className="collapse text-center row ps-xl-5 ms-xl-5 align-items-center justify-content-center show" id="collapseExample">
-        <div className="circle-cut circlescreenreso col-xxl-11 container w-md-75 ms-xl-5 p-md-3">
+      <div className="collapse text-center m-auto row container align-items-center justify-content-center show" id="collapseExample">
+        <div className="circle-cut circlescreenreso col-md-12 col-xxl-9 container p-md-3 m-auto">
           <div className=' row align-item-center justify-content-center ms-l-5'>
           <div className='bgimg ms-md-5'></div>
           </div>

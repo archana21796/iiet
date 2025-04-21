@@ -19,15 +19,15 @@ const Institution = () => {
           className="puzzle1 text-decoration-none text-white"
         >
           <div className="p-2">
-            <div className="d-flex">
-              <div className="collegelogo cgelogobg1 me-3"></div>
-              <div>
+            <div className="row ">
+              <div className="col-4 ms-2 collegelogo cgelogobg1"></div>
+              <div className='col-6'>
                 <p>MEENAKSHI COLLEGE FOR WOMEN [1975]</p>
                 <strong>An Autonomous Institution</strong>
                 <p>www.meenakshicollege.com</p>
               </div>
             </div>
-            <div className="pt-3">
+            <div className="">
               Empowering over 3,500 women scholars in Arts and Science affiliated with the University of Madras
             </div>
           </div>
@@ -40,15 +40,15 @@ const Institution = () => {
           className="puzzle2 text-decoration-none text-white"
         >
           <div className="p-2">
-            <div className="d-flex">
-              <div className="collegelogo cgelogobg2 me-3"></div>
-              <div>
-                <p>MEENAKSHI SUNDARARAJ ENGINEERING COLLEGE [2001]</p>
+            <div className="row">
+              <div className="collegelogo ms-2 cgelogobg2 col-4"></div>
+              <div className='col-6'>
+                <p>MEENAKSHI SUNDARARAJAN ENGINEERING COLLEGE [2001]</p>
                 <strong>An Autonomous Institution</strong>
                 <p>www.msec.edu.in</p>
               </div>
             </div>
-            <div className="pt-3">
+            <div className=" ps-3">
               Engineering excellence through innovative learning and empowerment.
             </div>
           </div>
@@ -61,10 +61,10 @@ const Institution = () => {
           className="puzzle3 text-decoration-none text-white"
         >
           <div className="p-2">
-            <div className="d-flex">
-              <div className="collegelogo cgelogobg3 me-3"></div>
-              <div className='pt-xl-4'>
-                <p>MEENAKSHI SUNDARARAJ SCHOOL OF MANAGEMENT [2001]</p>
+            <div className="row">
+              <div className="collegelogo col-4 cgelogobg3 ms-2"></div>
+              <div className='pt-xl-4 col-6'>
+                <p>MEENAKSHI SUNDARARAJAN SCHOOL OF MANAGEMENT [2001]</p>
                 <p>www.mssm.edu.in</p>
               </div>
             </div>
@@ -81,9 +81,9 @@ const Institution = () => {
           className="puzzle4 text-decoration-none text-white"
         >
           <div className="p-2">
-            <div className="d-flex">
-              <div className="collegelogo cgelogobg4 me-3"></div>
-              <div className='pt-xl-4'>
+            <div className="row align-items-center jutify-content-center">
+              <div className="collegelogo cgelogobg4 ms-3 col-4 p-3"></div>
+              <div className=' col-6'>
                 <p className="fs-4">THE NEST SCHOOL [2022]</p>
                 <p>www.thenest.school</p>
               </div>

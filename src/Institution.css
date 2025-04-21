@@ -21,8 +21,8 @@
     --r: 30px;  /* control the circle radius */
     --s: 200px; 
     margin-top: 40px;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     border: 10px solid white;
     outline: 10px solid #4babae;
     background: linear-gradient(-135deg, #259191 50%, #4babae 50%);
@@ -35,8 +35,8 @@
     --r: 30px;  /* control the circle radius */
     --s: 200px; /* control the main size */
   
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     border: 10px solid white;
     outline: 10px solid #316a7d;
       background: linear-gradient(135deg, #427b99 50%, #316a7d 50%);
@@ -52,8 +52,8 @@
     --r: 30px;  /* control the circle radius */
     --s: 200px; /* control the main size */
   
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
       background: linear-gradient(135deg, #cc3254 50%, #e33b5c 50%);
     /* padding-top: 20px; */
   }
@@ -65,8 +65,8 @@
     outline: 10px solid #e65826;
     --r: 30px;  
     --s: 200px; 
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     margin-top: 40px;
     background: linear-gradient(-135deg, #f27130 50%, #e65826 50%);
   }

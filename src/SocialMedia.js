@@ -20,7 +20,7 @@ const SocialMedia = () => {
                 <div className='display-flex'>
                     <div className="outer-container">
                         <div className="trigger-container fs-5">
-                        <i className="fab fa-instagram fs-5 pe-1"></i>Instagram
+                        <i className="fab fa-instagram fs-5 pe-1"></i>
                         <div className="slide-out-container">
                             <a href="https://www.instagram.com/msecofficial_chennai24/" target="_blank" rel="noopener noreferrer">
                                 <img src={insta1} alt="Instagram QR 1" className="qrimg" />
@@ -39,7 +39,7 @@ const SocialMedia = () => {
                     </div>
                     <div className="outer-container mt-3">
                         <div className="trigger-container triger-con2 fs-5">
-                        <i className="fab fa-linkedin fs-5 pe-1"></i>LinkedIn
+                        <i className="fab fa-linkedin fs-5 pe-1"></i>
                         <div className="slide-out-container">
                             <a href="https://www.linkedin.com/school/meenakshi-sundararajan-engineering-college/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedin1} alt="Instagram QR 1" className="qrimg" />
@@ -60,6 +60,17 @@ const SocialMedia = () => {
 
             </div>
             <div className='text-center bg-black text-white'>
+                <div>
+                    <div>
+                        <div className='bgmap'></div>
+                    </div>
+                    <div>
+                        <h4>CONTACTS</h4>
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>
                 <h6 className='p-2 mb-0'>All copyrights reserved &copy; {new Date().getFullYear()}  msgroups</h6>
             </div>
         </div>

@@ -1,11 +1,11 @@
 /* HTML: <div class="ribbon">Your text content</div> */
-.ribbon1 {
+/* .ribbon1 {
     font-size: 28px;
     font-weight: bold;
     color: #fff;
   }
   .ribbon1 {
-    --f: .5em; /* control the folded part */
+    --f: .5em;
     
     position: absolute;
     top: 0;
@@ -18,8 +18,8 @@
       100% calc(100% - var(--f)),100% 100%,calc(100% - var(--f)) calc(100% - var(--f)),var(--f) calc(100% - var(--f)), 0 100%,0 calc(100% - var(--f)),999px calc(100% - var(--f) - 999px),calc(100% - 999px) calc(100% - var(--f) - 999px));
     transform: translate(calc((1 - cos(45deg))*100%), -100%) rotate(45deg);
     transform-origin: 0% 100%;
-    background-color: #BD1550; /* the main color  */
-  }
+    background-color: #BD1550;
+  } */
   .smbg{
     background-color: wheat;
   }
@@ -33,7 +33,7 @@
   
   .trigger-container {
     position: relative;
-    width: 150px;
+    /* width: 150px; */
     height: 60px;
     background: linear-gradient(360deg, rgb(149, 0, 255), rgb(255, 1, 136));
     color: white;
@@ -85,7 +85,7 @@
   
   .display-flex {
     position: fixed;
-    top: 90%;
+    top: 87%;
     left: 0;
     transform: translateY(-50%);
     display: flex;
@@ -108,4 +108,16 @@
     align-items: center;
     /* gap: 5px; */
   }
-  
+  .bgmap{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./Map.png');
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: transform 0.4s ease;
+  }
+  .bgmap:hover {
+    transform: scale(1.2); 
+  }

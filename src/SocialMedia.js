@@ -67,9 +67,9 @@ const SocialMedia = () => {
                 </div>
 
             </div>
-            <div className='text-center bg-black text-white'>
+            <div className='text-center bg-black text-white container-fluid'>
                 <div className='row align-items-center justify-content-center'>
-                <a href={mapLink} className='ms-5 col-12 col-md-6 col-xl-2 mt-4' target="_blank" rel="noopener noreferrer"> 
+                <a href={mapLink} className='col-12 col-md-6 col-xl-2 mt-4' target="_blank" rel="noopener noreferrer"> 
                     <div className='bgmap-container '>
                         <div className='bgmap'></div>
                     </div>
@@ -82,7 +82,9 @@ const SocialMedia = () => {
                         </div>
                     </div>
                 </div>
-                <h6 className='p-3 mt-4 mb-0 bg-footer'>All copyrights reserved &copy; {new Date().getFullYear()}  msgroups</h6>
+                <div className='row'>
+                    <h6 className='p-3 mt-4 mb-0 bg-footer'>All copyrights reserved &copy; {new Date().getFullYear()}  msgroups</h6>
+                </div>
             </div>
         </div>
 

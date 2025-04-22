@@ -4,7 +4,7 @@ import './Institution.css'
 const Institution = () => {
   return (
     <div className='institutionsec pt-5 position-relative'>
-      <div className='styleheader'>
+      <div className='styleheader ms-4 ms-md-0'>
         <div className='stylebg text-center'>
           <h2>OUR PRESTIGIOUS INSTITUTION:<br /> A HOME FOR EVERY ASPIRATION</h2>
           <h4>The IIET Society is home to premier institutions <br /> that have set benchmarks in education</h4>
@@ -82,7 +82,7 @@ const Institution = () => {
         >
           <div className="p-2">
             <div className="row align-items-center jutify-content-center">
-              <div className="collegelogo cgelogobg4 ms-3 col-4 p-3"></div>
+              <div className="collegelogo cgelogobg4 ms-3 col-4"></div>
               <div className=' col-6'>
                 <p className="fs-4">THE NEST SCHOOL [2022]</p>
                 <p>www.thenest.school</p>

@@ -9,10 +9,16 @@ import linkedin1 from './linked1.png'
 import linkedin2 from './lined2.png'
 import linkedin3 from './linked3.png'
 import linkdin4 from './linked4.png'
+import yourInstaLogo from './instalogo.png'
+import yourLinkedinLogo from './linkedinlogo.png'
 
 
 const SocialMedia = () => {
-  return (
+
+    const address = "363G+RHC, 363, Arcot Road, Kodambakkam, Puliyur 1st Main Rd, Subedar Colony, Kodambakkam, Chennai, Tamil Nadu 600024";
+
+    const mapLink = "https://www.google.com/maps/place/Meenakshi+Sundararajan+Engineering+College/@13.0558079,80.2239358,17z/data=!4m14!1m7!3m6!1s0x3a5266f499eee457:0x4d3f7e677496e707!2sMeenakshi+Sundararajan+Engineering+College!8m2!3d13.0558027!4d80.2265107!16s%2Fm%2F0hndktj!3m5!1s0x3a5266f499eee457:0x4d3f7e677496e707!8m2!3d13.0558027!4d80.2265107!16s%2Fm%2F0hndktj";
+      return (
     <div className='position-relative'>
         <div className=''>
             <div className='smbg'>
@@ -20,7 +26,8 @@ const SocialMedia = () => {
                 <div className='display-flex'>
                     <div className="outer-container">
                         <div className="trigger-container fs-5">
-                        <i className="fab fa-instagram fs-5 pe-1"></i>
+                        <img  src={yourInstaLogo} alt="Instagram Logo" className="insta-logo logoalignment pe-2" />
+                        {/* <i className="fab fa-instagram fs-5 pe-1"></i> */}
                         <div className="slide-out-container">
                             <a href="https://www.instagram.com/msecofficial_chennai24/" target="_blank" rel="noopener noreferrer">
                                 <img src={insta1} alt="Instagram QR 1" className="qrimg" />
@@ -39,7 +46,8 @@ const SocialMedia = () => {
                     </div>
                     <div className="outer-container mt-3">
                         <div className="trigger-container triger-con2 fs-5">
-                        <i className="fab fa-linkedin fs-5 pe-1"></i>
+                        {/* <i className="fab fa-linkedin fs-5 pe-1"></i> */}
+                        <img  src={yourLinkedinLogo } alt="Instagram Logo" className="insta-logo logoalignment pe-2" />
                         <div className="slide-out-container">
                             <a href="https://www.linkedin.com/school/meenakshi-sundararajan-engineering-college/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedin1} alt="Instagram QR 1" className="qrimg" />
@@ -60,18 +68,21 @@ const SocialMedia = () => {
 
             </div>
             <div className='text-center bg-black text-white'>
-                <div>
-                    <div>
+                <div className='row align-items-center justify-content-center'>
+                <a href={mapLink} className='ms-5 col-12 col-md-6 col-xl-2 mt-4' target="_blank" rel="noopener noreferrer"> 
+                    <div className='bgmap-container '>
                         <div className='bgmap'></div>
                     </div>
-                    <div>
-                        <h4>CONTACTS</h4>
+                </a>
+                    <div className='col-xl-3 col-md-6 col-12 text-start ps-5 ps-md-4'>
+                        <h4 className='pt-4'>CONTACTS</h4>
+                        <p className='pt-3'>Meenakshi Sundaraja Engineering college, <br/>363  Arcot Road,<br/> Kodambakkam, <br/>Puliyur 1st Main Rd,<br/> Subedar Colony, <br/>Kodambakkam, Chennai, <br/>Tamil Nadu 600024</p>
                         <div>
-                            
+
                         </div>
                     </div>
                 </div>
-                <h6 className='p-2 mb-0'>All copyrights reserved &copy; {new Date().getFullYear()}  msgroups</h6>
+                <h6 className='p-3 mt-4 mb-0 bg-footer'>All copyrights reserved &copy; {new Date().getFullYear()}  msgroups</h6>
             </div>
         </div>
 
